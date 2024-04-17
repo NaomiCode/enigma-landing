@@ -5,7 +5,7 @@ import React from "react";
 
 export function Providers({children}: { children: React.ReactNode }) {
   return (
-    <NextUIProvider>
+    <NextUIProvider className="min-h-screen">
       {children}
     </NextUIProvider>
   )
